@@ -1,0 +1,29 @@
+{
+  "name": "mongo-authentication",
+  "version": "1.0.0",
+  "description": "node mongo authentication",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amirvaghef/node-mongo-authentication.git"
+  },
+  "author": "Amir Vaghef",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amirvaghef/node-mongo-authentication/issues"
+  },
+  "homepage": "https://github.com/amirvaghef/node-mongo-authentication#readme",
+  "dependencies": {
+    "@apollo/server": "^4.7.1",
+    "dotenv": "^16.0.3",
+    "graphql": "^16.6.0",
+    "lodash": "^4.17.21",
+    "mongoose": "^7.1.0",
+    "nodemon": "^2.0.22"
+  }
+}
